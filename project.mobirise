@@ -30,7 +30,8 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#2ee8d2"
+        "#2ee8d2",
+        "#1375ec"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -42,7 +43,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 6,
+    "uniqCompNum": 7,
     "versionPublish": "5.1.4",
     "favicon": false,
     "imageResize": false,
@@ -526,6 +527,46 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sax77cc60e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".image-wrap img": {
+              "width": "100%",
+              "@media (min-width: 992px)": {
+                "display": "block",
+                "margin": "auto",
+                "width": "(@imageWidth * 10%)"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "color": "#1375ec"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"1\" max=\"10\" step=\"1\" value=\"10\" condition=\"showImage\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"text-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-9\">\n                <div class=\"image-wrap mb-4\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mapa-de-empata.png\" alt=\"Mobirise\">\n                </div>\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Planteamiento del problema</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Después de completar nuestro mapa de empatía el cual nos ayudó a conocer más a nuestro paciente ,y el de la espina de Ishikawa, para analizar las posibles causas del problema que el paciente debe afrontar con respecto a la situación de pandemia en nuestro país. Definimos como causas el que <b>no exista suficiente personal para el monitoreo de la enfermedad&nbsp;de manera presencial</b> en el paciente, cosa que también afecta a muchos pacientes asintomáticos; y que nuestro paciente <b>desconoce&nbsp;la evolución de su caso tras ser diagnosticado </b>de covid. Otro punto importante a resaltar es que, no se cuenta con una economía necesaria para tener un monitoreo de primera calidad. Es decir, PCR-RT o pruebas moleculares semanalmente, como lo recomienda la OMS. Además, que los pacientes tendrían que realizarse las pruebas necesarias hasta que haya un resultado negativo.<br>\n<br>A partir del estudio del caso, definimos el problema como la escasez e incluso inexistencia del monitoreo remoto para los pacientes asintomáticos en el Perú. Pues de los 729, 619 infectados el 80% son asintomáticos o con síntomas leves, lo que sería alrededor de 583 mil personas. Las cuales en una primera instancia sí pudieron tener un monitoreo presencial, antes del colapso en el sistema sanitario. Además, se sabe que no existen doctores especialistas que vigilen los casos de aquellas personas que guardan reposo desde casa; incluso es muy baja la tasa de personas que sigue contactándose a través de llamadas telefónicas sin recurrir a ningún tipo de análisis especializado, para detectar nuevos posibles síntomas. <br>\n<br>El paciente analizado en este caso tiene 45 años con respaldo económico de la empresa en donde trabaja. Sin embargo, es ajeno a la evolución de su enfermedad por la inexistencia de una data sincronizada de sus síntomas y el personal médico especializado, por la fuerte demanda de estos en los hospitales.&nbsp;<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Download Now!</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View Demos</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header9-6",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "saxcGEENny",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

@@ -1070,6 +1070,29 @@ a {
     width: 100%;
   }
 }
+.cid-saxcGEENny {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-saxcGEENny .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-saxcGEENny .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+.cid-saxcGEENny .mbr-text,
+.cid-saxcGEENny .mbr-section-btn {
+  text-align: left;
+}
+.cid-saxcGEENny .mbr-section-title {
+  text-align: left;
+  color: #1375ec;
+}
 .cid-sax7Rli85x {
   padding-top: 0rem;
   padding-bottom: 0rem;
