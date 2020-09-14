@@ -688,6 +688,36 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-saBo45vIvB {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: url("../../../assets/images/diseo-sin-ttulo-4.png");
+}
+.cid-saBo45vIvB .mbr-section-title {
+  color: #000000;
+}
+.cid-saBuozeyJs {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-saBuozeyJs .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-saBuozeyJs .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+.cid-saBuozeyJs .mbr-text,
+.cid-saBuozeyJs .mbr-section-btn {
+  text-align: left;
+}
+.cid-saBuozeyJs .mbr-section-title {
+  text-align: left;
+}
 .cid-sawSROsoXt {
   z-index: 1000;
   width: 100%;
@@ -1041,7 +1071,7 @@ a {
   }
 }
 .cid-sawX3dKLue {
-  padding-top: 2rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -1055,8 +1085,30 @@ a {
     width: 100%;
   }
 }
+.cid-saBuzebBp0 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-saBuzebBp0 .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-saBuzebBp0 .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+.cid-saBuzebBp0 .mbr-text,
+.cid-saBuzebBp0 .mbr-section-btn {
+  text-align: left;
+}
+.cid-saBuzebBp0 .mbr-section-title {
+  text-align: left;
+}
 .cid-sax77cc60e {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -1071,7 +1123,7 @@ a {
   }
 }
 .cid-saxcGEENny {
-  padding-top: 2rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -1091,7 +1143,7 @@ a {
 }
 .cid-saxcGEENny .mbr-section-title {
   text-align: left;
-  color: #1375ec;
+  color: #65c6d4;
 }
 .cid-sax7Rli85x {
   padding-top: 0rem;
