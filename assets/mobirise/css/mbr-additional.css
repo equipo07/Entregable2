@@ -1269,6 +1269,28 @@ a {
   border-radius: 4px;
   background-color: #ffd009;
 }
+.cid-sbrOuXbuct {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sbrOuXbuct .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sbrOuXbuct .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+.cid-sbrOuXbuct .mbr-text,
+.cid-sbrOuXbuct .mbr-section-btn {
+  text-align: left;
+}
+.cid-sbrOuXbuct .mbr-section-title {
+  text-align: left;
+}
 .cid-sax7Rli85x {
   padding-top: 0rem;
   padding-bottom: 0rem;
